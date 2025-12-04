@@ -29,7 +29,7 @@ def login():
     else:
         mensagem_label['text'] = 'Usuário ou senha inválido.'
 
-tk.Button(janela, text='Login', command=login).pack()
+tk.Button(pagina_login, text='Login', command=login).pack()
 
 mensagem_label = tk.Label(janela)
 mensagem_label.pack()
